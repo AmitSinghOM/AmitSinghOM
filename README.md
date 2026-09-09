@@ -1,7 +1,7 @@
 # Amit Singh
 
 **Senior Backend & Platform Engineer** · Pune, India
-Python · AWS · event-driven systems · production reliability · applied AI
+Python · AWS · Event-Driven Systems · Production Reliability · Applied AI
 
 I build systems that stay correct under pressure. 7+ years across product safety, network
 operations and financial data; currently an SDE II with Realtek Software Services delivering
