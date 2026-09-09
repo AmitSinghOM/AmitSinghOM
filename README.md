@@ -19,10 +19,12 @@ Every number below is re-verified by running the suite before it is published.
   [benchmarks page](https://github.com/AmitSinghOM/fastapi-microservices-platform/blob/main/docs/benchmarks.md)
   that reports the target it missed. 187 tests.
 - **[code-quality-analyzer](https://github.com/AmitSinghOM/code-quality-analyzer)** —
-  Privacy-first static analysis for Python, Go and TypeScript/JavaScript, on PyPI as
+  Privacy-first static analysis for Python plus bounded Go, TypeScript/JavaScript, Java, Kotlin,
+  C#/.NET and C/C++ pilots, on PyPI as
   [`cqa-analyzer`](https://pypi.org/project/cqa-analyzer/) via Trusted Publishing with digital
-  attestations and no long-lived release credentials. Enforced-offline execution, cross-file AST
-  duplication detection, SARIF/baseline CI gates. 328 tests on a 3-OS × 4-Python matrix.
+  attestations and no long-lived release credentials. One shared 56-pattern architecture catalog
+  (DSA, GoF, production-systems) under a versioned scoring policy, enforced-offline execution,
+  cross-file AST duplication detection, SARIF/baseline CI gates. 400 tests on a 3-OS × 4-Python matrix.
 - **[cloudscale-backend](https://github.com/AmitSinghOM/cloudscale-backend)** —
   CQRS + event sourcing with a typed hexagonal core: exactly-once-effect projections via
   transactional dedupe, retry / circuit-breaker / dead-letter resilience, SQLite and PostgreSQL
