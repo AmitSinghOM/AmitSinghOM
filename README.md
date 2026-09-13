@@ -30,6 +30,12 @@ Every number below is re-verified by running the suite before it is published.
   transactional dedupe, retry / circuit-breaker / dead-letter resilience, SQLite and PostgreSQL
   adapters behind shared ports, and an authenticated HTTP tier that sustained 1,431 rps in a
   scripted gate run. 204 tests including 9 Hypothesis property suites.
+- **[agent-skills](https://github.com/AmitSinghOM/agent-skills)** —
+  Three tested Agent Skills for coding agents (Claude Code, Kiro, Codex, Cursor), each backed
+  by a runnable tool or a behaviour contract. `code-quality-gate` turns `cqa-analyzer` into a
+  CI gate that fails only on new findings on changed lines, with a stdlib git-diff-to-manifest
+  generator and config pinning so a PR cannot weaken the gate. Spec-validated against
+  agentskills.io; 30 tests; CI on Python 3.10–3.13 plus a live analyzer smoke job.
 
 ## How I work
 
