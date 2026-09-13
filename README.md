@@ -31,11 +31,12 @@ Every number below is re-verified by running the suite before it is published.
   adapters behind shared ports, and an authenticated HTTP tier that sustained 1,431 rps in a
   scripted gate run. 204 tests including 9 Hypothesis property suites.
 - **[agent-skills](https://github.com/AmitSinghOM/agent-skills)** —
-  Three tested Agent Skills for coding agents (Claude Code, Kiro, Codex, Cursor), each backed
-  by a runnable tool or a behaviour contract. `code-quality-gate` turns `cqa-analyzer` into a
-  CI gate that fails only on new findings on changed lines, with a stdlib git-diff-to-manifest
-  generator and config pinning so a PR cannot weaken the gate. Spec-validated against
-  agentskills.io; 30 tests; CI on Python 3.10–3.13 plus a live analyzer smoke job.
+  Four tested Agent Skills for coding agents (Claude Code, Kiro, Codex, Cursor), each backed
+  by a runnable tool or a behaviour contract. `architecture-baseline` snapshots a codebase's
+  observed architecture from `cqa-analyzer`'s pattern map and fails CI when a pattern leaks
+  into a layer it never lived in; `code-quality-gate` turns the same analyzer into a
+  changed-line gate with config pinning so a PR cannot weaken it. Spec-validated against
+  agentskills.io; 41 tests; CI on Python 3.10–3.13 plus a live analyzer smoke job.
 
 ## How I work
 
