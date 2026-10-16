@@ -4,8 +4,8 @@
 Python · AWS · Event-Driven Systems · Production Reliability · Applied AI
 
 I build systems that stay correct under pressure. 7+ years across product safety, network
-operations and financial data; currently an SDE II with Realtek Software Services delivering
-multi-tenant product-safety platforms for Amazon Ring and Lab126.
+operations and financial data; currently an SDE II with Amazon delivering
+multi-tenant product-safety platforms for Ring and Lab126/Leo.
 
 ## Selected work
 
